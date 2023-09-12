@@ -6,7 +6,7 @@ btnDOM.addEventListener('click',() => {
 })
 
 function getData(name){
-    const API = "4379929ae507f845dc52a29c54ea469d";
+    const API = "";
     const baseURL = `https://api.openweathermap.org/data/2.5/weather?q=${name}&appid=${API}&units=metric&lang=tr`
     fetch(baseURL).then(res =>res.json())
         .then(data => {

@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.veriGirisi{
+    text-align: center;
+}
+.durumBilgileri{
+    text-align: center;
+}
+
+h1 {
+    font-size: 28px;
+    color: #333;
+}
+
+.form {
+    margin-bottom: 20px;
+    border-radius: 20%;
+}
+
+#InputText {
+    width: 300px;
+    /* Girdinin genişliğini ayarlayabilirsiniz */
+    padding: 10px;
+    /* İç boşluğunu ayarlayabilirsiniz */
+    border: 1px solid #ccc;
+    /* Kenarlık ekleyebilirsiniz */
+    border-radius: 5px;
+    /* Köşeleri yuvarlayabilirsiniz */
+    font-size: 16px;
+    /* Yazı tipi boyutunu ayarlayabilirsiniz */
+    outline: none;
+    /* Odak çerçevesini kaldırabilirsiniz */
+    /* İstenilen diğer stil özelliklerini ekleyebilirsiniz */
+}
+
+#InputText:focus {
+    border-color: #007bff;
+    /* Girdiye odaklandığında kenarlık rengini değiştirebilirsiniz */
+    box-shadow: 0 0 5px #007bff;
+    /* Girdiye odaklandığında bir gölge ekleyebilirsiniz */
+}
+
+
+.btnDiv {
+    text-align: center;
+}
+
+.btn {
+    margin: 1%;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.info {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.sehir {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.genelDeger {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#sicaklik {
+    margin-right: 10px;
+}
+
+#havaDurumu {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.his {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#hissedilen {
+    text-align: center;
+    margin-right: 10px;
+}
